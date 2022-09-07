@@ -48,6 +48,7 @@ public class Main {
     public static void task8() {
         int total = 0;
         int deposit = 29000;
+
         for (int i = 1; i <= 12; i++) {
             total = total + deposit;
             System.out.println("Месяц " + i + ". Сумма накоплений равна " + total + " рублей");
@@ -57,6 +58,7 @@ public class Main {
         int total = 0;
         int deposit = 29000;
         int percentage = 12;
+
         for (int i = 1; i <= 12; i++) {
             total = (total + (total * percentage / 1200)) + deposit;
             System.out.println("Месяц " + i + ". Сумма накоплений равна " + total + " рублей");
